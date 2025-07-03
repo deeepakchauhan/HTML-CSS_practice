@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: wheat;
+
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+
+}
+
+#Logo{
+     color: yellow;    
+     font-size: medium;
+
+}
+button{
+    color: aquamarine;
+}
+
+
+/* to create gaps between the elements(anchor tags) */
+a{     
+    margin-right: 200px;                                     
+    margin-right: 200px ;
+}

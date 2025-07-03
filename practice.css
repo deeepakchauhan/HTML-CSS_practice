@@ -1,0 +1,15 @@
+#box{
+    color:blueviolet;
+    background-color: lightcoral;
+}
+
+/* .heading{
+    color: lightseagreen;
+    background-color: black;
+} */
+ /* OR */
+
+ h1,h2,h3{
+    color: darkorchid;
+    background-color: darkslateblue;
+ }

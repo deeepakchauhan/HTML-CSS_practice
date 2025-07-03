@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color:darkturquoise;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+#container{
+    width: 800px;
+    height: 800px;
+    display: flex;                                             /* to use flexbox properties */
+   flex-direction: row-reverse;
+    /*flex-direction: column;                                     vertical arrangement */
+    justify-content:flex-start;
+    align-items:baseline;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+
+}
+
+
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: aquamarine;
+    height: 50px;
+}
+#box3{
+    background-color: blue;
+    height: 75px;
+}
+#box4{
+    background-color:darkgreen
+}
+#box5{
+    background-color:yellow;
+}

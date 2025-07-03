@@ -1,0 +1,38 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: red;
+
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+
+}
+
+#Logo{
+     color: yellow;    
+     font-size: medium;
+
+}
+button{
+    color: aquamarine;
+}
+
+
+/* to create gaps between the elements(anchor tags) */
+a{     
+    margin-right: 200px;                                     
+    margin-right: 200px ;
+}
+
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(100,100,0,0.25);
+    
+}

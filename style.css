@@ -1,0 +1,65 @@
+*{
+    color: rgb(200,100,0);
+    background-color:wheat;
+
+}
+/* p{
+    color: black;
+    background-color: rgb(214, 133, 33);
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive; */
+
+    #one{
+        color:brown;
+        background-color: #b66c95;
+        text-align: center;
+        font-family: fantasy;
+        font-size: 30px;
+        text-transform: lowercase;
+
+    }
+ 
+    #two{
+    color: black;
+    background-color: antiquewhite;
+    text-align: left;
+    font-family: monospace;
+    font-weight: 500;
+    font-size:20px;
+    text-transform: uppercase;
+    }
+
+    button{
+    color: chocolate;
+    background-color: darkorange;
+}
+
+
+body{
+    background-color:whitesmoke;
+}
+
+#headingone{
+    color: #b33941;
+    background-color: #b66c95;
+    text-align: center;
+    text-decoration: line-through;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+#headingtwo{
+    color: aqua;
+    background-color: cadetblue;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.myclass{
+    color:blue;
+    background-color: lightcoral;
+    
+}

@@ -1,0 +1,48 @@
+# # write a program that :
+# # saves a secret number
+# # asks  the user for a number guess
+# # prints whether the guess is too high, too low ,
+
+# secret = 5
+# guess = int(input("guess a number: "))
+
+# if(guess > secret):
+#     print("too high")
+
+# elif("guess == secret"):
+#     print("guess is correct")
+
+# else:
+#     print("too low")
+
+
+
+
+# dictionary problems 
+# d = {1:2, 3:4, 5:6 }
+# def count_matches(d):
+#     count = 0
+#     for k,v in d.items():
+#         if v == k:                # this is where my values equals to the keys
+#             count += 1
+#     return count
+
+# print(count_matches(d))          #  prints 0
+            
+
+
+
+
+# RECURSION
+# complete the function that calculates n^p for variables n and p
+def power_recur(n,p):
+    if p == 0 :
+       return 1
+    elif p == 1 :  #just to show how we can add up to 2 base cases
+       return n
+    else:
+       return n*power_recur(n,p-1)
+       
+    
+    
+print(power_recur(5,4))   
